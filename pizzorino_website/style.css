@@ -1,0 +1,65 @@
+body{
+    font-family: Montserrat;
+    background-image: url(pics/PizzaPattern.jpg);
+    background-size: 100%;
+}
+.inline{
+    display: inline-block;
+}
+#staff{
+    background-color: rgb(4, 142, 4);
+}
+.titre{
+    text-align: center;
+}
+
+.fond_header{
+    background-color: tomato;
+}
+footer{
+    text-align: end;
+}
+.nav_bar{
+    position: fixed;
+    top: 30px;
+    left: 20px;
+    display: inline-block;
+    border: 4px rgba(0, 0, 0, 0.556) solid;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.406);
+    border-radius: 10%;
+}
+a{
+    color: aliceblue;
+}
+#pizetpleinte{
+    background: rgb(255,0,0);
+    background: linear-gradient(0deg, rgba(255,0,0,0) 0%, rgba(4,142,4,1) 100%);
+}
+#form{
+    margin: 30px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    border: 6px black solid;
+    border-radius: 50px;
+}
+#recipe{
+    display: inline-block;
+    text-align: start;
+    background-color: rgb(253, 194, 99);
+    border: 15px rgb(173, 128, 70) solid;
+    padding: 40px;
+    width: 225px;
+    height: 225px;
+    border-radius: 100%;
+}
+#recipecar{
+    display: inline-block;
+    text-align: start;
+    background-color: rgb(253, 194, 99);
+    border: 15px rgb(173, 128, 70) solid;
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+}
